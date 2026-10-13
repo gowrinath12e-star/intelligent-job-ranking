@@ -1,0 +1,73 @@
+candidate_id,name,email,skills,experience_years,education,additional_skills,application_id
+C001,Synthetic Applicant 001,applicant001@example.test,Python; SQL; Pandas; Git; Python,5.0,B.Tech Computer Science,Django; FastAPI; Docker; AWS,A0001
+C002,Synthetic Applicant 002,applicant002@example.test," python , SQL, Pandas, Git ",4.0,B.Sc Computer Science,Docker; FastAPI,A0002
+C003,Synthetic Applicant 003,applicant003@example.test,Python; SQL; Pandas; Git,6.0,M.Sc Computer Science,Django; FastAPI; Docker; AWS,A0003
+C004,Synthetic Applicant 004,applicant004@example.test,Python; SQL; Pandas; Git,,MCA,Django; FastAPI; Docker; AWS,A0004
+C005,Synthetic Applicant 005,applicant005@example.test,Python; SQL; Git,3.0,MCA,FastAPI; Docker,A0005
+C006,Synthetic Applicant 006,applicant006@example.test,Python; SQL; Pandas; Git,2.0,,FastAPI; Docker,A0006
+C007,Synthetic Applicant 007,applicant007@example.test,Python; SQL; Pandas; Git,6.0,M.Sc Computer Science,Django; FastAPI; Docker; AWS,A0007
+C008,Synthetic Applicant 008,applicant008@example.test,sql; pandas; git; python; excel; linux; react,4.5,Diploma Computer Science,docker; aws,A0008
+C009,Synthetic Applicant 009,applicant009@example.test,git; sql; python; pandas; html,2.5,B.Sc Computer Science,docker; aws,A0009
+C010,Synthetic Applicant 010,applicant010@example.test,pandas; git; html; machine learning,7.5,B.Tech Computer Science,docker; django; aws; fastapi,A0010
+C011,Synthetic Applicant 011,applicant011@example.test,pandas,3.3,B.Com,aws; fastapi,A0011
+C012,Synthetic Applicant 012,applicant012@example.test,sql; git; react; javascript,6.0,B.Tech Computer Science,docker; fastapi,A0012
+C013,Synthetic Applicant 013,applicant013@example.test,sql; python; git; rest api; java,,M.Sc Computer Science,,A0013
+C014,Synthetic Applicant 014,applicant014@example.test,sql; pandas; python; rest api; java; flask,5.6,B.Com,,A0014
+C015,Synthetic Applicant 015,applicant015@example.test,sql; python; pandas; machine learning; react; excel,5.5,B.Tech Information Technology,,A0015
+C016,Synthetic Applicant 016,applicant016@example.test,pandas; sql; python; git; rest api,5.8,B.Com,django,A0016
+C017,Synthetic Applicant 017,applicant017@example.test,python; pandas; sql,6.9,,docker; django; aws,A0017
+C018,Synthetic Applicant 018,applicant018@example.test,sql; pandas; git; numpy; excel; rest api,0.3,B.E. Computer Science,,A0018
+C019,Synthetic Applicant 019,applicant019@example.test,python,6.7,Diploma Computer Science,django; fastapi; docker,A0019
+C020,Synthetic Applicant 020,applicant020@example.test,sql; pandas; git; flask; linux; excel,4.7,B.Com,fastapi; aws; docker,A0020
+C021,Synthetic Applicant 021,applicant021@example.test,pandas; python; rest api,2.9,B.E. Computer Science,docker; fastapi,A0021
+C022,Synthetic Applicant 022,applicant022@example.test,pandas; react; linux; flask,2.9,B.Tech Computer Science,aws,A0022
+C023,Synthetic Applicant 023,applicant023@example.test,pandas; git; python; javascript; react; pytest,8.3,B.Sc Computer Science,aws; django; fastapi,A0023
+C024,Synthetic Applicant 024,applicant024@example.test,python; pandas; git; sql,6.7,B.Tech Computer Science,aws; docker; fastapi; django,A0024
+C025,Synthetic Applicant 025,applicant025@example.test,python; pandas; git; excel; numpy; react,0.8,B.Tech Computer Science,aws; docker,A0025
+C026,Synthetic Applicant 026,applicant026@example.test,pandas; python; sql; git; react; java; javascript,,M.Sc Computer Science,docker; aws; django; fastapi,A0026
+C027,Synthetic Applicant 027,applicant027@example.test,git; sql; python; postgresql; react,4.3,B.Com,django,A0027
+C028,Synthetic Applicant 028,applicant028@example.test,sql; git; pandas; python,2.1,B.Sc Computer Science,fastapi,A0028
+C029,Synthetic Applicant 029,applicant029@example.test,python; git; pandas; pytest; linux,4.0,B.E. Computer Science,aws; fastapi,A0029
+C030,Synthetic Applicant 030,applicant030@example.test,git; pandas; python; react; flask; rest api,3.8,B.Com,aws; docker,A0030
+C031,Synthetic Applicant 031,applicant031@example.test,pandas; git; python,8.1,B.Com,fastapi,A0031
+C032,Synthetic Applicant 032,applicant032@example.test,sql; git; python; pandas,6.2,B.Tech Information Technology,fastapi; docker; django,A0032
+C033,Synthetic Applicant 033,applicant033@example.test,git; pandas,0.1,Diploma Computer Science,fastapi; aws; django,A0033
+C034,Synthetic Applicant 034,applicant034@example.test,git; python; pandas; machine learning; postgresql; javascript,8.1,,docker; fastapi; django,A0034
+C035,Synthetic Applicant 035,applicant035@example.test,git; html,3.3,B.E. Computer Science,aws; fastapi; docker,A0035
+C036,Synthetic Applicant 036,applicant036@example.test,pandas; linux; numpy; javascript,8.3,M.Sc Computer Science,docker; django; aws; fastapi,A0036
+C037,Synthetic Applicant 037,applicant037@example.test,pandas; git,8.5,B.E. Computer Science,aws; fastapi; docker,A0037
+C038,Synthetic Applicant 038,applicant038@example.test,git; machine learning; postgresql,0.8,MCA,django; docker; aws; fastapi,A0038
+C039,Synthetic Applicant 039,applicant039@example.test,pandas; sql; python; git; java; react,,M.Sc Computer Science,django; fastapi; docker; aws,A0039
+C040,Synthetic Applicant 040,applicant040@example.test,sql; git; python; pandas; linux; react; postgresql,0.3,Diploma Computer Science,docker; django,A0040
+C041,Synthetic Applicant 041,applicant041@example.test,python; sql; pandas; git; flask; rest api,3.6,B.Com,docker; django,A0041
+C042,Synthetic Applicant 042,applicant042@example.test,python; pandas; git; sql; pytest; machine learning; javascript,7.5,B.Com,docker; django; aws,A0042
+C043,Synthetic Applicant 043,applicant043@example.test,python; git; sql; javascript; postgresql; linux,6.1,Diploma Computer Science,fastapi,A0043
+C044,Synthetic Applicant 044,applicant044@example.test,pandas; sql; git; postgresql; flask,4.2,B.Tech Information Technology,fastapi; django; aws,A0044
+C045,Synthetic Applicant 045,applicant045@example.test,git; python,4.1,B.Sc Computer Science,aws,A0045
+C046,Synthetic Applicant 046,applicant046@example.test,sql; git; postgresql,5.2,MCA,fastapi,A0046
+C047,Synthetic Applicant 047,applicant047@example.test,pandas; sql; python; html,8.3,M.Sc Computer Science,docker,A0047
+C048,Synthetic Applicant 048,applicant048@example.test,pandas; linux; javascript,7.7,B.Com,,A0048
+C049,Synthetic Applicant 049,applicant049@example.test,pandas; rest api; flask,2.1,B.Com,django; aws,A0049
+C050,Synthetic Applicant 050,applicant050@example.test,git; javascript; machine learning; linux,1.5,B.Tech Computer Science,,A0050
+C051,Synthetic Applicant 051,applicant051@example.test,sql,1.2,,fastapi; django; aws; docker,A0051
+C052,Synthetic Applicant 052,applicant052@example.test,git; python; pandas; javascript; java; linux,,B.E. Computer Science,,A0052
+C053,Synthetic Applicant 053,applicant053@example.test,git; pandas; sql; python; postgresql; machine learning,5.3,B.E. Computer Science,,A0053
+C054,Synthetic Applicant 054,applicant054@example.test,python; sql; pandas; numpy; flask,8.3,B.E. Computer Science,aws,A0054
+C055,Synthetic Applicant 055,applicant055@example.test,python; sql; git; numpy; postgresql,7.2,B.Tech Information Technology,,A0055
+C056,Synthetic Applicant 056,applicant056@example.test,git; pandas; sql; excel; numpy,6.8,B.Sc Computer Science,django; fastapi; docker,A0056
+C057,Synthetic Applicant 057,applicant057@example.test,pandas; python; html; react; java,2.6,B.Sc Computer Science,django,A0057
+C058,Synthetic Applicant 058,applicant058@example.test,git; python; sql; pandas; excel; postgresql; java,7.2,B.E. Computer Science,,A0058
+C059,Synthetic Applicant 059,applicant059@example.test,python; git; pandas; linux,4.5,B.Tech Computer Science,docker,A0059
+C060,Synthetic Applicant 060,applicant060@example.test,pandas; sql,7.5,B.Sc Computer Science,docker; aws; fastapi; django,A0060
+C061,Synthetic Applicant 061,applicant061@example.test,sql; pandas; python,6.8,B.Com,docker,A0061
+C062,Synthetic Applicant 062,applicant062@example.test,python; sql; pandas; git; javascript; numpy; excel,4.8,B.Sc Computer Science,fastapi; aws; docker,A0062
+C063,Synthetic Applicant 063,applicant063@example.test,git; flask,1.8,Diploma Computer Science,docker; aws; django,A0063
+C064,Synthetic Applicant 064,applicant064@example.test,sql; python; git; pytest; react; linux,1.5,B.Tech Computer Science,aws,A0064
+C065,Synthetic Applicant 065,applicant065@example.test,git; rest api; excel,,MCA,docker; aws; django; fastapi,A0065
+C066,Synthetic Applicant 066,applicant066@example.test,python; linux; javascript,2.4,Diploma Computer Science,docker; django,A0066
+C067,Synthetic Applicant 067,applicant067@example.test,python; sql; machine learning; html,3.6,M.Sc Computer Science,django; docker; fastapi,A0067
+C068,Synthetic Applicant 068,applicant068@example.test,python; sql; excel; pytest; numpy,0.6,,aws; docker,A0068
+C069,Synthetic Applicant 069,applicant069@example.test,git; python; pandas,7.3,B.Tech Information Technology,django; fastapi,A0069
+C070,Synthetic Applicant 070,applicant070@example.test,pandas; excel,2.3,B.Com,,A0070
+C071,Synthetic Applicant 071,applicant071@example.test,git; sql; java; rest api,5.3,B.Tech Information Technology,django; aws; docker,A0071
+C072,Synthetic Applicant 072,applicant072@example.test,Java; Excel,0.0,B.Com,,A0072

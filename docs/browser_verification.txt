@@ -1,0 +1,12 @@
+Live browser verification (Chromium / Playwright)
+PASS: Server HTTP 200, real dashboard and Plotly charts rendered.
+PASS: CSV upload, automatic column mapping, all 7 invalid rows reported and correction download verified.
+PASS: Browser-download validation workbook has real duplicate groups, issues, summary and cleaning sheets.
+PASS: Real .xlsx browser upload validates 72 applicants without rejected rows.
+PASS: Custom source headings manually mapped through working browser controls; missing optional fields preserved.
+PASS: Provisional candidate explanation renders missing experience and renormalized effective weights.
+PASS: Real current-data sorting, heap and dictionary/linear benchmarks execute and render measured charts.
+PASS: Browser downloads verified: ranked CSV/XLSX, shortlist CSV/XLSX, 288-row score report and 7-row real benchmark report.
+PASS: All 11 pages navigate without a Streamlit exception; loaded dataset and measurements persist.
+PASS: 390px mobile viewport renders without a page exception or document-wide horizontal overflow.
+PASS: No browser JavaScript page errors in the desktop verification session.

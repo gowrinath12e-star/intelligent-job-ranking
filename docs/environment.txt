@@ -1,0 +1,16 @@
+Verified environment
+Recorded (UTC): 2026-10-13T15:22:41+00:00
+Python: 3.13.16
+Platform: Linux-6.1.158+-x86_64-with-glibc2.41
+pandas: 2.2.3
+streamlit: 1.65.0
+plotly: 6.0.1
+openpyxl: 3.1.5
+pytest: 9.0.3
+numpy: 2.3.5
+pyarrow: 25.0.1
+
+Application dependencies: requirements.txt
+Automated tests: python -m pytest -v
+Native Windows execution was not performed; code/paths and installation commands are Windows-compatible.
+Playwright/Chromium was used separately for live browser verification, not as a runtime dependency.

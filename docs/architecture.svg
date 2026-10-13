@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="860" viewBox="0 0 1280 860" role="img" aria-labelledby="title description">
+  <title id="title">Job Match Studio architecture</title>
+  <desc id="description">CSV and Excel inputs are mapped and validated. Valid records are scored using job criteria. A bounded heap creates suggestions and a genuine sort creates the full ranking. Dictionaries and sets index the results. Human review and exports retain separate decisions and score explanations. Invalid rows are reported rather than silently discarded.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10Z" fill="#6C8A9C"/></marker>
+    <marker id="warningArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#C58A43"/></marker>
+    <style>
+      text{font-family:Arial,sans-serif;fill:#192B40}.kicker{font-size:12px;letter-spacing:2px;font-weight:700;fill:#087F8C}.heading{font-size:31px;font-weight:700}.cardtitle{font-size:20px;font-weight:700}.copy{font-size:15px;fill:#62778D}.code{font-family:Consolas,monospace;font-size:14px;fill:#087F8C}.small{font-size:13px;fill:#6C8091}.card{fill:white;stroke:#DCE5EC;stroke-width:1.5}.flow{fill:none;stroke:#6C8A9C;stroke-width:2;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1280" height="860" rx="20" fill="#F5F7FB"/>
+  <text x="50" y="46" class="kicker">SYSTEM ARCHITECTURE / PYTHON × DSA</text>
+  <text x="50" y="90" class="heading">Transparent matching. Efficient data structures.</text>
+  <text x="50" y="121" class="copy">A local-first, human-review workflow · no external AI service or cloud credentials</text>
+
+  <rect x="50" y="170" width="245" height="115" rx="13" class="card"/>
+  <text x="69" y="202" class="cardtitle">01 / Structured input</text>
+  <text x="69" y="231" class="copy">CSV or modern Excel (.xlsx)</text>
+  <text x="69" y="257" class="code">Pandas + heading mapping</text>
+
+  <rect x="365" y="170" width="300" height="115" rx="13" class="card"/>
+  <text x="385" y="202" class="cardtitle">02 / Validate &amp; normalize</text>
+  <text x="385" y="231" class="copy">Types, bounds, IDs, missing evidence</text>
+  <text x="385" y="257" class="code">dict grouping + skill sets</text>
+
+  <rect x="805" y="170" width="375" height="115" rx="13" fill="#E7F4F4" stroke="#C3DFE1" stroke-width="1.5"/>
+  <text x="825" y="202" class="cardtitle">03 / Explained criteria matching</text>
+  <text x="825" y="231" class="copy">Required skills · experience · education · extras</text>
+  <text x="825" y="257" class="code">Job configuration → observed weighted sum</text>
+  <path d="M295 227H363" class="flow"/>
+  <path d="M665 227H803" class="flow"/>
+  <text x="682" y="214" class="small">valid records</text>
+
+  <rect x="50" y="360" width="540" height="132" rx="13" fill="#FFF7EE" stroke="#EDDCC7" stroke-width="1.5"/>
+  <text x="70" y="393" class="cardtitle">Every invalid record is accounted for</text>
+  <text x="70" y="424" class="copy">Source row · error reason · warnings · duplicate groups</text>
+  <text x="70" y="451" class="copy">Unknown experience/education stays unknown, not zero.</text>
+  <text x="70" y="475" class="small">No name-only deduplication and no silent row dropping.</text>
+  <path d="M515 285V325H320V358" fill="none" stroke="#C58A43" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#warningArrow)"/>
+
+  <path d="M992 285V330H815V378" class="flow"/>
+  <path d="M992 330H1065V378" class="flow"/>
+  <rect x="705" y="380" width="225" height="120" rx="13" class="card"/>
+  <text x="725" y="411" class="cardtitle">Heap suggestions</text>
+  <text x="725" y="440" class="code">heapq · bounded top-K</text>
+  <text x="725" y="468" class="copy">Scan N, keep only best K</text>
+  <text x="725" y="489" class="small">After explicit eligibility gates</text>
+
+  <rect x="955" y="380" width="225" height="120" rx="13" class="card"/>
+  <text x="975" y="411" class="cardtitle">Complete ranking</text>
+  <text x="975" y="440" class="code">Merge / Quick Sort</text>
+  <text x="975" y="468" class="copy">Score ↓ then ID ↑</text>
+  <text x="975" y="489" class="small">Verified against built-in sort</text>
+
+  <path d="M815 500V530H942V558" class="flow"/>
+  <path d="M1065 500V530H942" fill="none" stroke="#6C8A9C" stroke-width="2"/>
+  <rect x="705" y="560" width="475" height="108" rx="13" class="card"/>
+  <text x="725" y="592" class="cardtitle">04 / Fast retrieval and skill filtering</text>
+  <text x="725" y="623" class="code">candidate_id → record · skill → set of IDs</text>
+  <text x="725" y="649" class="copy">Dictionary lookup · set intersection / difference / union</text>
+
+  <rect x="50" y="560" width="540" height="108" rx="13" class="card"/>
+  <text x="70" y="592" class="cardtitle">05 / Recruiter review</text>
+  <text x="70" y="623" class="copy">Manual inclusion, exclusion, or review hold + a reason</text>
+  <text x="70" y="649" class="code">Review status ≠ matching score · original rank preserved</text>
+  <path d="M705 614H592" class="flow"/>
+
+  <path d="M320 668V708" class="flow"/>
+  <rect x="50" y="710" width="1130" height="88" rx="13" fill="#087F8C"/>
+  <text x="70" y="744" font-family="Arial,sans-serif" font-size="21" font-weight="700" style="fill:white">06 / Dashboard, connected DSA laboratories &amp; report downloads</text>
+  <text x="70" y="775" font-family="Arial,sans-serif" font-size="15" style="fill:#DAEFF0">Actual metrics · explained scores · repeated verified timings · purpose-limited CSV/XLSX · session-scoped saved decisions</text>
+  <text x="50" y="833" class="small">Matching scores are not predicted job performance. The system supports human review; it does not guarantee fairness or legal compliance.</text>
+</svg>

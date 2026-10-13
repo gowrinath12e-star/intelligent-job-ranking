@@ -1,0 +1,13 @@
+candidate_id,name,email,skills,experience_years,education,additional_skills,application_id
+C001,Synthetic Applicant 001,applicant001@example.test,Python; SQL; Pandas; Git; Python,5.0,B.Tech Computer Science,Django; FastAPI; Docker; AWS,DUPLICATE-APP
+C002,Synthetic Applicant 002,applicant002@example.test," python , SQL, Pandas, Git ",4.0,B.Sc Computer Science,Docker; FastAPI,DUPLICATE-APP
+DUPLICATE-CID,Synthetic Applicant 003,applicant003@example.test,Python; SQL; Pandas; Git,6.0,M.Sc Computer Science,Django; FastAPI; Docker; AWS,A0003
+DUPLICATE-CID,Synthetic Applicant 004,applicant004@example.test,Python; SQL; Pandas; Git,,MCA,Django; FastAPI; Docker; AWS,A0004
+C005,Synthetic Applicant 005,applicant005@example.test,Python; SQL; Git,not-a-number,MCA,FastAPI; Docker,A0005
+,Synthetic Applicant 006,applicant006@example.test,Python; SQL; Pandas; Git,2.0,,FastAPI; Docker,A0006
+C007,Synthetic Applicant 007,invalid-email,Python; SQL; Pandas; Git,6.0,M.Sc Computer Science,Django; FastAPI; Docker; AWS,A0007
+C008,Synthetic Applicant 008,applicant008@example.test,sql; pandas; git; python; excel; linux; react,4.5,Diploma Computer Science,docker; aws,A0008
+C009,Synthetic Applicant 009,applicant009@example.test,git; sql; python; pandas; html,2.5,B.Sc Computer Science,docker; aws,A0009
+C010,Synthetic Applicant 010,applicant010@example.test,pandas; git; html; machine learning,7.5,B.Tech Computer Science,docker; django; aws; fastapi,A0010
+C011,Synthetic Applicant 011,applicant011@example.test,pandas,3.3,B.Com,aws; fastapi,A0011
+C012,Synthetic Applicant 012,applicant012@example.test,sql; git; react; javascript,6.0,B.Tech Computer Science,docker; fastapi,A0012
